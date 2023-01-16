@@ -1,5 +1,11 @@
+import ProductsList from "./components/List";
+
 function App() {
-  return <div>Hello</div>;
+  return (
+    <div>
+      <ProductsList />
+    </div>
+  );
 }
 
 export default App;

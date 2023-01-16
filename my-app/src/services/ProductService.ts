@@ -49,6 +49,7 @@ function post(model: CreateProductModel): Promise<unknown> {
 //   return await res.json();
 // };
 
+
 const productService: ProductService = {
   get,
   getById,
